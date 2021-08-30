@@ -26,8 +26,6 @@ export class DigiDigitsComponent implements OnInit {
 
       data.forEach((digimon: any) => {
 
-        console.log(digimon.clase)
-
         switch (digimon.clase) {
           case "rookie": this.rookie.push(digimon); break;
           case "champion": this.champion.push(digimon); break;
