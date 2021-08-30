@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule} from '@angular/common/http'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -8,6 +9,7 @@ import { InicioComponent } from './paginas/inicio/inicio.component';
 import { GuiaDtectorComponent } from './paginas/guia-dtector/guia-dtector.component';
 import { VideosComponent } from './componentes/videos/videos.component';
 import { RecomendacionesComponent } from './componentes/recomendaciones/recomendaciones.component';
+import { DigiDigitsComponent } from './paginas/digi-digits/digi-digits.component';
 
 @NgModule({
   declarations: [
@@ -16,11 +18,13 @@ import { RecomendacionesComponent } from './componentes/recomendaciones/recomend
     InicioComponent,
     GuiaDtectorComponent,
     VideosComponent,
-    RecomendacionesComponent
+    RecomendacionesComponent,
+    DigiDigitsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
