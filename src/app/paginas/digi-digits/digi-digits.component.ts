@@ -22,8 +22,6 @@ export class DigiDigitsComponent implements OnInit {
 
     this.digidigitsService.getDigidigits().subscribe((data: any) => {
 
-      console.log(data)
-
       data.forEach((digimon: any) => {
 
         switch (digimon.clase) {
