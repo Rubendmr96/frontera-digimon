@@ -7,12 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VideosComponent implements OnInit {
 
-  idVideo:string = ""
 
   constructor() { }
 
   ngOnInit(): void {
-    this.idVideo = process.env.ID_VIDEO || "HUlJKgS_vao"
   }
 
 }
