@@ -15,6 +15,7 @@ export class DigiDigitsComponent implements OnInit {
   boss = []
   ancient = []
   spirits = []
+  others = []
 
   constructor(private digidigitsService: DigidigitsService) { }
 
@@ -32,6 +33,7 @@ export class DigiDigitsComponent implements OnInit {
           case "boss": this.boss.push(digimon); break;
           case "ancient": this.ancient.push(digimon); break;
           case "spirits": this.spirits.push(digimon); break;
+          case "others": this.others.push(digimon); break;
         }
 
       });

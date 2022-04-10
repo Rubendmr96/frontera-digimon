@@ -126,5 +126,9 @@
     {"nombre": "Loweemon", "codigo": "YBO0Q", "clase":"spirits", "urlImagen": "../../assets/img/loweemon.jpg"},
     {"nombre": "Kaiserleomon", "codigo": "MCJC0", "clase":"spirits", "urlImagen": "../../assets/img/kaiserleomon.jpg"},
     {"nombre": "Agunimon", "codigo": "K0AS7", "clase":"spirits", "urlImagen": "../../assets/img/agunimon.jpg"},
-    {"nombre": "Burninggreymon", "codigo": "4BLV5", "clase":"spirits", "urlImagen": "../../assets/img/burninggreymon.jpg"}
+    {"nombre": "Burninggreymon", "codigo": "4BLV5", "clase":"spirits", "urlImagen": "../../assets/img/burninggreymon.jpg"},
+    {"nombre": "Kerpymon", "codigo": "Únicamente obtenible transfiriéndolo desde un digivice D3 con un D-Dock vacío", "clase":"others", "urlImagen": "../../assets/img/kerpymon.jpg"},
+    {"nombre": "Kerpymon Viciado", "codigo": "Únicamente obtenible derrotando a Kerpymon Viciado con un D-Dock vacío", "clase":"others", "urlImagen": "../../assets/img/kerpymonvm.jpg"},
+    {"nombre": "Lucemon", "codigo": "Únicamente obtenible derrotando a Lucemon con un D-Dock vacío", "clase":"others", "urlImagen": "../../assets/img/lucemon.jpg"}
+
 ]
